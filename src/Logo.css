@@ -1,0 +1,85 @@
+  .ghost {
+    position: relative;
+    border: 0.5px solid black;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom: 0;
+    box-sizing: border-box;
+    background: #e0dfdf;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .legs {
+    display: flex;
+    width: 30px;
+    position: absolute;
+    top:29px;
+  }
+  
+  .legs div {
+    width: 7.5px;
+    height: 6px;
+    border: 0.5px solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    background: #e0dfdf;
+  }
+    
+  .eyes {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 50%;
+    top: 13px;
+    left: 5px;
+    box-shadow: 14px 0;
+  }
+  .eyes-right {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 50%;
+    top: 13px;
+    left: 20px;
+  }
+  
+  .eyes:before{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 50%;
+    left: 2px;
+    box-shadow: 14px 0 white;
+  }
+  .eyes-right::before {
+      content: "";
+      position: absolute;
+    background: white;
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 50%;
+    left: 2px;
+  }
+  
+  .mouth {
+    position: absolute;
+    width: 4px;
+    height: 2px;
+    border: 0.7px solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    top: 16px;
+    left: 12px;
+  }
+  
+  
+  
