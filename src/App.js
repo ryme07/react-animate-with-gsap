@@ -5,8 +5,6 @@ import Content from "./Content";
 import Image from "./Image";
 import "./App.css";
 
-// import header, content, images components
-
 function App() {
   let timeline = new gsap.timeline();
   let ease = Power3.easeOut;
